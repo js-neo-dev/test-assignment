@@ -1,0 +1,25 @@
+Question:
+The company Enterprise Systems LLC has a legacy system developed 5 years
+ago, and a lot of clients are using it. Lately, the stakeholders came out with a
+whole new set of features to the product in order to open a new market
+branch. The software engineers evaluated the legacy software and concluded
+that it is excessively coupled (maccarronic code). In your opinion, what’s the
+best strategy: revamp the software ou evolve the legacy code? Elaborate.
+
+
+Answer:
+When we say that legacy code is using excessively coupled code, then revamp is always best way to go because when an application is closely coupled, there is a lot of code duplication, very less modularization.
+Even small changes in such app can be tedious.
+Adding new features to such project will only increase complexity.
+Tighly coupled coding is a bad coding practice.
+Another reason to go for revamp is, the legacy app was built 5 years ago. So, possibly the framework on which this app was built must have gone out of date and support for that framework might not be available anymore.
+
+Upgrading such app will have following advantages:
+
+- We can build the app with latest framework / tools available
+- We would be knowing the challenges faced during previous development cycle, so we can plan application architecture accordingly
+- Application support would improve as we would be upgrading to latest framework
+- Integrating new features would be easier in future
+- Application would become more stable
+
+
